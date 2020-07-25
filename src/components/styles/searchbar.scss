@@ -1,0 +1,28 @@
+.Searchbar {
+  float: left;
+ 
+  margin-left: 10%;
+  width: 60%;
+  overflow: hidden;
+
+  .txtfld {
+    float: left;
+    width: 80%;
+  }
+  .sbtn {
+    width: 38px;
+    float: right;
+    margin-right: 9%;
+    background: white;
+    border: rgb(126, 119, 119) 0.5px solid;
+    padding-bottom: 2px;
+    padding-top: 3px;
+    color: lightgray;
+    border-radius: 2px;
+  }
+  .sbtn:hover{
+    cursor: pointer;
+    color: black;
+    background: rgb(231, 224, 224);
+  }
+}

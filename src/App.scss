@@ -1,0 +1,126 @@
+.App {
+  text-align: center;
+}
+
+.everything {
+  display: grid;
+  grid-template-columns: 20% 80%;
+
+  .lefthalf {
+    //position: fixed;
+    padding-top: 5px;
+    border-top: 0.6px lightgrey solid;
+    border-right: solid lightgrey 0.6px;
+
+    .menutop {
+      //float: left;
+      // position: fixed;
+
+      .App-img {
+        float: left;
+        margin-left: 15px;
+        width: 45px;
+        height: 28px;
+      }
+
+      .App-menu {
+        float: left;
+        margin-left: 20px;
+        margin-top: 6px;
+        width: 15px;
+        height: 14px;
+      }
+      .App-img:hover,
+      .App-menu:hover {
+        cursor: pointer;
+      }
+    } //menutop ends here
+
+    .sidebar {
+      /* width */
+      ::-webkit-scrollbar {
+        width: 10px;
+      }
+
+      /* Track */
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+      }
+
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: #888;
+      }
+
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+      }
+      margin-top: 10px;
+    }
+  } //Left side ends here
+
+  .righthalf {
+    /* width */
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: #888;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: #555;
+    }
+
+    background: whitesmoke;
+    .App-header {
+      height: 50px;
+      width: 100%;
+
+      min-height: 8vh;
+      display: flex;
+      flex-direction: column;
+      //grid-template-columns: 10px 60px 125px;
+      align-items: right;
+      justify-content: center;
+      text-align: left;
+      font-size: calc(10px + 2vmin);
+      color: black;
+      margin-top: auto;
+      border-top: lightgrey solid 0.7px;
+      border-bottom: lightgrey solid 0.7px;
+      background: whitesmoke;
+      //position: fixed;
+    }
+
+    .main-body {
+      overflow-y: scroll;
+      overflow-x: hidden;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      background-color: white;
+      color: black;
+      border: grey solid 0.5px;
+      
+  }
+  //Right side ends here
+} //Everything ends here
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

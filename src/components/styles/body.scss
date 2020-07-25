@@ -1,0 +1,14 @@
+a{
+    text-decoration: grey;
+}
+.Body{
+    display: grid;
+    //grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: 25% 25% 25% 25%;
+    div{
+        border: lightgray 1px solid;
+        width: auto;
+        height: 100px ;
+    }
+    
+}

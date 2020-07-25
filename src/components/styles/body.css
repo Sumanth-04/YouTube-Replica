@@ -1,0 +1,18 @@
+a {
+  -webkit-text-decoration: grey;
+          text-decoration: grey;
+}
+
+.Body {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 25% 25% 25% 25%;
+      grid-template-columns: 25% 25% 25% 25%;
+}
+
+.Body div {
+  border: lightgray 1px solid;
+  width: auto;
+  height: 100px;
+}
+/*# sourceMappingURL=body.css.map */

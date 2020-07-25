@@ -1,0 +1,30 @@
+.Searchbar {
+  float: left;
+  margin-left: 10%;
+  width: 60%;
+  overflow: hidden;
+}
+
+.Searchbar .txtfld {
+  float: left;
+  width: 80%;
+}
+
+.Searchbar .sbtn {
+  width: 38px;
+  float: right;
+  margin-right: 9%;
+  background: white;
+  border: #7e7777 0.5px solid;
+  padding-bottom: 2px;
+  padding-top: 3px;
+  color: lightgray;
+  border-radius: 2px;
+}
+
+.Searchbar .sbtn:hover {
+  cursor: pointer;
+  color: black;
+  background: #e7e0e0;
+}
+/*# sourceMappingURL=searchbar.css.map */

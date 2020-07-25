@@ -1,0 +1,44 @@
+.side {
+  text-align: left;
+   height: 100%; /* Full-height: remove this if you want "auto" height */
+  //margin-left: 10px;
+  width: 100%; /* Set the width of the sidebar */
+  //position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: white; /* Black */
+  overflow-y: scroll;
+  overflow-x: hidden;
+  color: black;
+  padding-top: 20px;
+    .divs{
+        border-bottom:0.5px lightgray solid ;
+    }
+  button {
+    font-size: 10px;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 550;
+    //line-height: var(--yt-guide-highlight-line-height, 1.8rem);
+    text-align: left;
+    padding-left: 5px;
+    padding: 10px;
+    //padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    color: black;
+    background: white;
+    width: 100%;
+    border: none;
+    //display: block;
+  }
+  button:hover {
+    cursor: pointer;
+    background: rgb(241, 238, 238);
+  }
+  .selected {
+    background: lightgray;
+  }
+  .selected:hover {
+    background: lightgray;
+  }
+}
