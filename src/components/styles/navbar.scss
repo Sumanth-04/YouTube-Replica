@@ -1,15 +1,18 @@
-/* Style the links inside the navigation bar */
 
 .topnav {
+  z-index: -1;
   //background-color: #333;
   button{
-     
+     border-radius: 100%;
     float: right;
-    background: whitesmoke;
+    background: white;
     border: none;
+    color: rgb(107, 103, 103);
+    padding-right: 10px;
   }
   button:hover{
     cursor: pointer;
+    
   }
 }
 

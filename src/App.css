@@ -11,23 +11,33 @@
 
 .everything .lefthalf {
   padding-top: 5px;
-  border-top: 0.6px lightgrey solid;
+  border-top: 0.3px lightgrey solid;
   border-right: solid lightgrey 0.6px;
+  background: white;
+}
+
+.everything .lefthalf .menutop {
+  top: 0px;
+  position: fixed;
+  background: white;
+  width: 20%;
+  border-top: 0.3px lightgrey solid;
 }
 
 .everything .lefthalf .menutop .App-img {
   float: left;
-  margin-left: 15px;
-  width: 45px;
-  height: 28px;
+  margin-top: 2px;
+  margin-left: 5px;
+  width: 60px;
+  height: 35px;
 }
 
 .everything .lefthalf .menutop .App-menu {
   float: left;
-  margin-left: 20px;
-  margin-top: 6px;
-  width: 15px;
-  height: 14px;
+  margin-left: 10px;
+  margin-top: 11px;
+  background: white;
+  border: none;
 }
 
 .everything .lefthalf .menutop .App-img:hover,
@@ -40,11 +50,11 @@
   /* Track */
   /* Handle */
   /* Handle on hover */
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .everything .lefthalf .sidebar ::-webkit-scrollbar {
-  width: 10px;
+  width: 5px;
 }
 
 .everything .lefthalf .sidebar ::-webkit-scrollbar-track {
@@ -52,39 +62,22 @@
 }
 
 .everything .lefthalf .sidebar ::-webkit-scrollbar-thumb {
-  background: #888;
+  background: #dbdada;
 }
 
 .everything .lefthalf .sidebar ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  cursor: pointer;
+  background: #dbdada;
 }
 
 .everything .righthalf {
-  /* width */
-  /* Track */
-  /* Handle */
-  /* Handle on hover */
-  background: whitesmoke;
-}
-
-.everything .righthalf ::-webkit-scrollbar {
-  width: 10px;
-}
-
-.everything .righthalf ::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
-
-.everything .righthalf ::-webkit-scrollbar-thumb {
-  background: #888;
-}
-
-.everything .righthalf ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  width: 100%;
+  background-color: white;
 }
 
 .everything .righthalf .App-header {
-  height: 50px;
+  position: fixed;
+  height: 20px;
   width: 100%;
   min-height: 8vh;
   display: -webkit-box;
@@ -105,36 +98,29 @@
   color: black;
   margin-top: auto;
   border-top: lightgrey solid 0.7px;
-  border-bottom: lightgrey solid 0.7px;
-  background: whitesmoke;
+  border-bottom: #e2dfdf solid 0.6px;
+  background: white;
+}
+
+.everything .righthalf .App-header .i3 {
+  right: 0;
+  padding-right: 30px;
+  position: fixed;
+  float: right;
 }
 
 .everything .righthalf .main-body {
+  width: 100%;
   overflow-y: scroll;
   overflow-x: hidden;
   margin-top: 5px;
   margin-bottom: 5px;
   background-color: white;
   color: black;
-  border: grey solid 0.5px;
-  /*
-      display: grid;
-      grid-template-columns: 20% 80%;
-      grid-column-gap: 10px;
-      grid-row-gap: 50px;
-    */
-  /* .main-item1 {
-        display: inline-grid;
-        border: grey solid 0.5px;
-      }
-      .main-item2 {
-        display: inline-grid;
-        border: grey solid 0.5px;
-      }*/
 }
 
-.App-link {
-  color: #61dafb;
+.everything .righthalf .main-body .main-item2 {
+  background: skyblue;
 }
 
 @-webkit-keyframes App-logo-spin {

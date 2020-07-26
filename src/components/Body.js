@@ -25,7 +25,9 @@ fun();*/
    
     return (
         <div className='Body'>
+          <div><img src='.download.png' alt='' /><label>Hi this is an label to the Image</label></div>
            <div>lorem</div>
+
            <div>HELLo</div>
            <div>HELLo</div>
            <div>HELLo</div>

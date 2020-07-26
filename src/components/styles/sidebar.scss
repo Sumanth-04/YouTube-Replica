@@ -1,11 +1,12 @@
 .side {
+  top: 35px;
   text-align: left;
    height: 100%; /* Full-height: remove this if you want "auto" height */
   //margin-left: 10px;
-  width: 100%; /* Set the width of the sidebar */
-  //position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  width: 20%; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
+  //top: 0; /* Stay at the top */
   left: 0;
   background-color: white; /* Black */
   overflow-y: scroll;
@@ -13,7 +14,12 @@
   color: black;
   padding-top: 20px;
     .divs{
+     
         border-bottom:0.5px lightgray solid ;
+        .icon{
+            margin-left: 5px;
+            margin-right: 5px;
+        }
     }
   button {
     font-size: 10px;

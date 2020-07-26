@@ -1,5 +1,4 @@
 import logos from "./logo-youtube.png";
-import menu from "./menu.png";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Searchbar from "./components/Searchbar";
@@ -13,21 +12,20 @@ class App extends Component {
     super(props);
 
     this.state = {
-      count : 5,
-      str : "Hello there mate ",
-      divisions : []
+     
     };
   }
 
   render() {
-    
     return (
       <div className="App">
         <div className="everything">
-
-          <div className='lefthalf'>
+          <div className="lefthalf">
             <div className="menutop">
-              <img className="App-menu" src={menu} alt="YouTube" />
+              <button className='App-menu'>
+                <i class="fa fa-fw fa-bars"></i>
+              </button>
+              
               <img className="App-img" src={logos} alt="YouTube" />
             </div>
             <div className="sidebar">
@@ -35,9 +33,9 @@ class App extends Component {
             </div>
           </div>
 
-          <div className='righthalf'>
+          <div className="righthalf">
             <header className="App-header">
-              <div>
+              <div className='fixing'>
                 <div className="i2">
                   <Searchbar />
                 </div>
@@ -52,9 +50,7 @@ class App extends Component {
                 <Body />
               </div>
             </div>
-
           </div>
-
         </div>
       </div>
     );

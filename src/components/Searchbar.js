@@ -8,7 +8,7 @@ class Searchbar extends Component {
       <div className="Searchbar">
         <input type="text" className="txtfld" placeholder="Search" />
         <button className='sbtn'>
-          <i className='fa fa-search'></i>
+          <i className='fa fa-search sea'></i>
         </button>
       </div>
     );

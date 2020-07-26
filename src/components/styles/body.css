@@ -4,6 +4,8 @@ a {
 }
 
 .Body {
+  width: 100%;
+  margin-top: 40px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 25% 25% 25% 25%;
@@ -11,8 +13,29 @@ a {
 }
 
 .Body div {
-  border: lightgray 1px solid;
+  border: white 5px solid;
   width: auto;
   height: 100px;
+}
+
+@media (max-width: 700px) {
+  .Body {
+    -ms-grid-columns: 33% 33% 33%;
+        grid-template-columns: 33% 33% 33%;
+  }
+}
+
+@media (max-width: 400px) {
+  .Body {
+    -ms-grid-columns: 50% 50%;
+        grid-template-columns: 50% 50%;
+  }
+}
+
+@media (max-width: 300px) {
+  .Body {
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+  }
 }
 /*# sourceMappingURL=body.css.map */

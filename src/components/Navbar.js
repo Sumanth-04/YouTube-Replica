@@ -13,17 +13,17 @@ class Navbar extends Component {
     return (
       <div class="topnav">
         <button>
-          <i class="fa fa-fw fa-home"></i>{" "}
+          <i class="fa fa-fw fa-user fa-lg"></i>
         </button>
         <button>
-          <i class="fa fa-fw fa-search"></i>{" "}
+          <i class="fa fa-fw fa-bell"></i>
         </button>
 
         <button>
-          <i class="fa fa-fw fa-envelope"></i>
+          <i class="fa fa-fw fa-video-camera"></i>
         </button>
         <button>
-          <i class="fa fa-fw fa-user"></i>
+          <i class="fa fa-fw fa-th"></i>
         </button>
       </div>
     );

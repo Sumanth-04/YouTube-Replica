@@ -9,26 +9,30 @@
   .lefthalf {
     //position: fixed;
     padding-top: 5px;
-    border-top: 0.6px lightgrey solid;
+    border-top: 0.3px lightgrey solid;
     border-right: solid lightgrey 0.6px;
-
+    background: white;  
     .menutop {
       //float: left;
-      // position: fixed;
-
+      top: 0px;
+      position: fixed;
+      background: white;
+      width: 20%;
+      border-top: 0.3px lightgrey solid;
       .App-img {
         float: left;
-        margin-left: 15px;
-        width: 45px;
-        height: 28px;
+        margin-top: 2px;
+        margin-left: 5px;
+        width: 60px;
+        height: 35px;
       }
 
       .App-menu {
         float: left;
-        margin-left: 20px;
-        margin-top: 6px;
-        width: 15px;
-        height: 14px;
+        margin-left: 10px;
+        margin-top: 11px;
+        background: white;
+        border: none;
       }
       .App-img:hover,
       .App-menu:hover {
@@ -37,9 +41,10 @@
     } //menutop ends here
 
     .sidebar {
+      // position: fixed;
       /* width */
       ::-webkit-scrollbar {
-        width: 10px;
+        width: 5px;
       }
 
       /* Track */
@@ -49,43 +54,27 @@
 
       /* Handle */
       ::-webkit-scrollbar-thumb {
-        background: #888;
+        background: rgb(219, 218, 218);
       }
 
       /* Handle on hover */
       ::-webkit-scrollbar-thumb:hover {
-        background: #555;
+        cursor: pointer;
+        background: rgb(219, 218, 218);
       }
-      margin-top: 10px;
+      margin-top: 15px;
     }
   } //Left side ends here
 
   .righthalf {
-    /* width */
-    ::-webkit-scrollbar {
-      width: 10px;
-    }
-
-    /* Track */
-    ::-webkit-scrollbar-track {
-      background: #f1f1f1;
-    }
-
-    /* Handle */
-    ::-webkit-scrollbar-thumb {
-      background: #888;
-    }
-
-    /* Handle on hover */
-    ::-webkit-scrollbar-thumb:hover {
-      background: #555;
-    }
-
-    background: whitesmoke;
+  width: 100%;
+  background-color: white;
+    
     .App-header {
-      height: 50px;
-      width: 100%;
+      position: fixed;
 
+      height: 20px;
+      width: 100%;
       min-height: 8vh;
       display: flex;
       flex-direction: column;
@@ -97,19 +86,30 @@
       color: black;
       margin-top: auto;
       border-top: lightgrey solid 0.7px;
-      border-bottom: lightgrey solid 0.7px;
-      background: whitesmoke;
+      border-bottom: rgb(226, 223, 223) solid 0.6px;
+      background: white;
+
+      .i3{
+        right: 0;
+        padding-right: 30px;
+        position: fixed;
+        float: right;
+      }
       //position: fixed;
     }
 
     .main-body {
+      width: 100%;
       overflow-y: scroll;
       overflow-x: hidden;
       margin-top: 5px;
       margin-bottom: 5px;
       background-color: white;
-      color: black;
-      border: grey solid 0.5px;
+      color: black ;
+      //the total border(outside divs)border: red solid 5px;
+      .main-item2{
+        background: skyblue;
+      }
       
   }
   //Right side ends here

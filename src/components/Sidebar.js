@@ -14,28 +14,38 @@ class Sidebar extends Component {
       <div>
         <div className="side">
           <div className='divs'>
-            <button className="selected">Home</button>
+          
+            <button className="selected"><i class="fa fa-fw fa-home fa-lg icon"></i>Home</button>
             <br />
-            <button>Trending</button>
+            <button><i class="fa fa-fw fa-fire fa-lg icon"></i>Trending</button>
             <br />
-            <button>Subscription</button>
+            <button><i class="fa fa-fw fa-bath fa-lg icon"></i>Subscription</button>
             <br />
           </div>
           <div className='divs'>
-            <button>Library</button>
-            <button>History</button>
-            <button>Watch Later</button>
-            <button>Liked Videos</button>
-            <button>YouTube</button>
+            <button><i class="fa fa-fw fa-home fa-lg icon"></i>Library</button>
+            <button><i class="fa fa-fw fa-home fa-lg icon"></i>History</button>
+            <button><i class="fa fa-fw fa-home fa-lg icon"></i>Watch Later</button>
+            <button><i class="fa fa-fw fa-home fa-lg icon"></i>Liked Videos</button>
+            <button><i class="fa fa-fw fa-home fa-lg icon"></i>YouTube</button>
 
             <br />
           </div>
           <div className='divs'>
-            <button>Library</button>
-            <button>History</button>
-            <button>Watch Later</button>
-            <button>Liked Videos</button>
-            <button>YouTube</button>
+            <button><i class="fa fa-fw fa-home fa-lg icon"></i>Library</button>
+            <button><i class="fa fa-fw fa-home fa-lg icon"></i>History</button>
+            <button><i class="fa fa-fw fa-home fa-lg icon"></i>Watch Later</button>
+            <button><i class="fa fa-fw fa-home fa-lg icon"></i>Liked Videos</button>
+            <button><i class="fa fa-fw fa-home fa-lg icon"></i>YouTube</button>
+
+            <br />
+          </div>
+          <div className='divs'>
+            <button><i class="fa fa-fw fa-home fa-lg icon"></i>Library</button>
+            <button><i class="fa fa-fw fa-home fa-lg icon"></i>History</button>
+            <button><i class="fa fa-fw fa-home fa-lg icon"></i>Watch Later</button>
+            <button><i class="fa fa-fw fa-home fa-lg icon"></i>Liked Videos</button>
+            <button><i class="fa fa-fw fa-home fa-lg icon"></i>YouTube</button>
 
             <br />
           </div>

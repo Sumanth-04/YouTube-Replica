@@ -1,29 +1,47 @@
 .Searchbar {
   float: left;
-  margin-left: 10%;
+  margin-left: 5%;
   width: 60%;
   overflow: hidden;
+  z-index: -1;
+}
+
+.Searchbar ::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  padding-left: 5px;
+  font-size: 12px;
 }
 
 .Searchbar .txtfld {
+  -webkit-box-shadow: 2px 2px #ece9e9;
+          box-shadow: 2px 2px #ece9e9;
   float: left;
-  width: 80%;
+  width: 70%;
+  height: 18px;
+  border-radius: 0px;
+  border: lightgrey 0.5px solid;
 }
 
 .Searchbar .sbtn {
   width: 38px;
-  float: right;
-  margin-right: 9%;
+  float: left;
+  margin-right: 22%;
   background: white;
-  border: #7e7777 0.5px solid;
+  border: lightgrey 0.5px solid;
   padding-bottom: 2px;
   padding-top: 3px;
-  color: lightgray;
-  border-radius: 2px;
+  background: #e7e0e0;
+}
+
+.Searchbar .sbtn .sea {
+  text-align: center;
+  color: grey;
 }
 
 .Searchbar .sbtn:hover {
   cursor: pointer;
+  -webkit-box-shadow: blue solid 1px;
+          box-shadow: blue solid 1px;
   color: black;
   background: #e7e0e0;
 }
