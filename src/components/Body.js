@@ -25,10 +25,28 @@ fun();*/
    
     return (
         <div className='Body'>
-          <div><img src='.download.png' alt='' /><label>Hi this is an label to the Image</label></div>
-           <div>lorem</div>
+          <div><p><img src='D:/Workspace/youtube-replica/src/components/Body.png' alt='Ca' /></p><label>Hi this is an label to the Image</label></div>
+           <div><p><img src="pic_trulli.jpg" alt="Italian Trulli" width='100px' height='50px' /> hi</p>lorem</div>
 
-           <div>HELLo</div>
+           <div></div>
+           <div></div>
+           <div></div>
+           <div></div>
+           <div></div>
+
+           <div></div>
+           <div></div>
+           <div></div>
+
+           <div></div>
+           <div></div>
+
+           <div></div>
+           <div></div>
+
+           <div></div>
+           <div></div>
+           
            <div>HELLo</div>
            <div>HELLo</div>
            <div>lorem</div>

@@ -1,4 +1,40 @@
+.menutop {
+  padding-top: 5px;
+  border-top: 0.3px lightgrey solid;
+  border-right: solid lightgrey 0.6px;
+  background: white;
+  top: 0px;
+  position: fixed;
+  background: white;
+  width: 20%;
+  border-top: 0.3px lightgrey solid;
+}
+
+.menutop .App-img {
+  float: left;
+  margin-top: 2px;
+  margin-left: 5px;
+  width: 60px;
+  height: 35px;
+}
+
+.menutop .App-menu {
+  border-radius: 100%;
+  float: left;
+  margin-left: 10px;
+  margin-top: 11px;
+  background: white;
+  border: none;
+}
+
+.menutop .App-img:hover,
+.menutop .App-menu:hover {
+  cursor: pointer;
+}
+
 .side {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   top: 35px;
   text-align: left;
   height: 100%;
@@ -18,6 +54,11 @@
   padding-top: 20px;
 }
 
+.side .nme {
+  display: inline;
+  color: black;
+}
+
 .side .divs {
   border-bottom: 0.5px lightgray solid;
 }
@@ -25,6 +66,11 @@
 .side .divs .icon {
   margin-left: 5px;
   margin-right: 5px;
+}
+
+.side .side:hover {
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .side button {
@@ -48,6 +94,11 @@
 
 .side .selected {
   background: lightgray;
+  color: red;
+}
+
+.side .ok {
+  color: black;
 }
 
 .side .selected:hover {

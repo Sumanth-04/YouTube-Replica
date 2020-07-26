@@ -5,6 +5,8 @@
 .everything {
   display: grid;
   grid-template-columns: 20% 80%;
+  
+  //grid-gap: 5px 5px;
 
   .lefthalf {
     //position: fixed;
@@ -12,39 +14,14 @@
     border-top: 0.3px lightgrey solid;
     border-right: solid lightgrey 0.6px;
     background: white;  
-    .menutop {
-      //float: left;
-      top: 0px;
-      position: fixed;
-      background: white;
-      width: 20%;
-      border-top: 0.3px lightgrey solid;
-      .App-img {
-        float: left;
-        margin-top: 2px;
-        margin-left: 5px;
-        width: 60px;
-        height: 35px;
-      }
-
-      .App-menu {
-        float: left;
-        margin-left: 10px;
-        margin-top: 11px;
-        background: white;
-        border: none;
-      }
-      .App-img:hover,
-      .App-menu:hover {
-        cursor: pointer;
-      }
-    } //menutop ends here
+   //menutop ends here
 
     .sidebar {
       // position: fixed;
       /* width */
       ::-webkit-scrollbar {
         width: 5px;
+        //display: none;
       }
 
       /* Track */
@@ -61,12 +38,30 @@
       ::-webkit-scrollbar-thumb:hover {
         cursor: pointer;
         background: rgb(219, 218, 218);
+        //display: block;
+      }
+      overflow: hidden;
+
+      .sidebar:hover{
+        overflow-y: scroll;
+        overflow-x: hidden;
       }
       margin-top: 15px;
     }
   } //Left side ends here
 
   .righthalf {
+    ::-webkit-scrollbar {
+      width: 5px;
+    }
+    ::-webkit-scrollbar-track {
+      background: white;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: white;
+    }
   width: 100%;
   background-color: white;
     
@@ -108,7 +103,8 @@
       color: black ;
       //the total border(outside divs)border: red solid 5px;
       .main-item2{
-        background: skyblue;
+        background: white;
+       
       }
       
   }

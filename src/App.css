@@ -16,40 +16,12 @@
   background: white;
 }
 
-.everything .lefthalf .menutop {
-  top: 0px;
-  position: fixed;
-  background: white;
-  width: 20%;
-  border-top: 0.3px lightgrey solid;
-}
-
-.everything .lefthalf .menutop .App-img {
-  float: left;
-  margin-top: 2px;
-  margin-left: 5px;
-  width: 60px;
-  height: 35px;
-}
-
-.everything .lefthalf .menutop .App-menu {
-  float: left;
-  margin-left: 10px;
-  margin-top: 11px;
-  background: white;
-  border: none;
-}
-
-.everything .lefthalf .menutop .App-img:hover,
-.everything .lefthalf .menutop .App-menu:hover {
-  cursor: pointer;
-}
-
 .everything .lefthalf .sidebar {
   /* width */
   /* Track */
   /* Handle */
   /* Handle on hover */
+  overflow: hidden;
   margin-top: 15px;
 }
 
@@ -70,9 +42,27 @@
   background: #dbdada;
 }
 
+.everything .lefthalf .sidebar .sidebar:hover {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
 .everything .righthalf {
+  /* Handle */
   width: 100%;
   background-color: white;
+}
+
+.everything .righthalf ::-webkit-scrollbar {
+  width: 5px;
+}
+
+.everything .righthalf ::-webkit-scrollbar-track {
+  background: white;
+}
+
+.everything .righthalf ::-webkit-scrollbar-thumb {
+  background: white;
 }
 
 .everything .righthalf .App-header {
@@ -120,7 +110,7 @@
 }
 
 .everything .righthalf .main-body .main-item2 {
-  background: skyblue;
+  background: white;
 }
 
 @-webkit-keyframes App-logo-spin {

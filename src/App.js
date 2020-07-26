@@ -1,4 +1,3 @@
-import logos from "./logo-youtube.png";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Searchbar from "./components/Searchbar";
@@ -15,19 +14,14 @@ class App extends Component {
      
     };
   }
-
+  
   render() {
+  
     return (
       <div className="App">
         <div className="everything">
           <div className="lefthalf">
-            <div className="menutop">
-              <button className='App-menu'>
-                <i class="fa fa-fw fa-bars"></i>
-              </button>
-              
-              <img className="App-img" src={logos} alt="YouTube" />
-            </div>
+            
             <div className="sidebar">
               <Sidebar />
             </div>

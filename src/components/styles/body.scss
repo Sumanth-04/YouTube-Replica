@@ -3,15 +3,17 @@ a {
 }
 .Body {
   width: 100%;
-  margin-top: 40px;
+  padding-top: 40px;
   display: grid;
   //grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 
   grid-template-columns: 25% 25% 25% 25%;
+  
   div {
-    border: white 5px solid;
+    border: lightgray 1px solid;
     width: auto;
-    height: 100px;
+    height: 150px;
+    background: white;
   }
 }
 @media (max-width: 700px) {
