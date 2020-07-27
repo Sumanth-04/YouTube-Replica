@@ -18,12 +18,11 @@ class Navbar extends Component {
         <button>
           <i class="fa fa-fw fa-bell"></i>
         </button>
-
-        <button>
-          <i class="fa fa-fw fa-video-camera"></i>
-        </button>
         <button>
           <i class="fa fa-fw fa-th"></i>
+        </button>
+        <button>
+          <i class="fa fa-fw fa-video-camera"></i>
         </button>
       </div>
     );

@@ -2,121 +2,17 @@
   text-align: center;
 }
 
-.everything {
-  display: grid;
-  grid-template-columns: 20% 80%;
-  
-  //grid-gap: 5px 5px;
-
-  .lefthalf {
-    //position: fixed;
+.App{
+  display: block;  
+  .header{
+    border-bottom: lightgray solid 1px;
+    border-top: 2px lightgray solid;
+    background: white;
+    top: 0;
     padding-top: 5px;
-    border-top: 0.3px lightgrey solid;
-    border-right: solid lightgrey 0.6px;
-    background: white;  
-   //menutop ends here
-
-    .sidebar {
-      // position: fixed;
-      /* width */
-      ::-webkit-scrollbar {
-        width: 5px;
-        //display: none;
-      }
-
-      /* Track */
-      ::-webkit-scrollbar-track {
-        background: #f1f1f1;
-      }
-
-      /* Handle */
-      ::-webkit-scrollbar-thumb {
-        background: rgb(219, 218, 218);
-      }
-
-      /* Handle on hover */
-      ::-webkit-scrollbar-thumb:hover {
-        cursor: pointer;
-        background: rgb(219, 218, 218);
-        //display: block;
-      }
-      overflow: hidden;
-
-      .sidebar:hover{
-        overflow-y: scroll;
-        overflow-x: hidden;
-      }
-      margin-top: 15px;
+    padding-bottom: 5px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;    
     }
-  } //Left side ends here
-
-  .righthalf {
-    ::-webkit-scrollbar {
-      width: 5px;
-    }
-    ::-webkit-scrollbar-track {
-      background: white;
-    }
-
-    /* Handle */
-    ::-webkit-scrollbar-thumb {
-      background: white;
-    }
-  width: 100%;
-  background-color: white;
-    
-    .App-header {
-      position: fixed;
-
-      height: 20px;
-      width: 100%;
-      min-height: 8vh;
-      display: flex;
-      flex-direction: column;
-      //grid-template-columns: 10px 60px 125px;
-      align-items: right;
-      justify-content: center;
-      text-align: left;
-      font-size: calc(10px + 2vmin);
-      color: black;
-      margin-top: auto;
-      border-top: lightgrey solid 0.7px;
-      border-bottom: rgb(226, 223, 223) solid 0.6px;
-      background: white;
-
-      .i3{
-        right: 0;
-        padding-right: 30px;
-        position: fixed;
-        float: right;
-      }
-      //position: fixed;
-    }
-
-    .main-body {
-      width: 100%;
-      overflow-y: scroll;
-      overflow-x: hidden;
-      margin-top: 5px;
-      margin-bottom: 5px;
-      background-color: white;
-      color: black ;
-      //the total border(outside divs)border: red solid 5px;
-      .main-item2{
-        background: white;
-       
-      }
-      
-  }
-  //Right side ends here
-} //Everything ends here
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

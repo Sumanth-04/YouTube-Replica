@@ -1,88 +1,51 @@
-.menutop {
-  //float: left;
-  padding-top: 5px;
-border-top: 0.3px lightgrey solid;
-border-right: solid lightgrey 0.6px;
-background: white;  
-  top: 0px;
-  position: fixed;
-  background: white;
-  width: 20%;
-  border-top: 0.3px lightgrey solid;
-  .App-img {
-    float: left;
-    margin-top: 2px;
-    margin-left: 5px;
-    width: 60px;
-    height: 35px;
+.aboveSidebar {
+  ::-webkit-scrollbar {
+    width: 5px;
   }
-
-  .App-menu {
-    border-radius: 100%;
-    
-    float: left;
-    margin-left: 10px;
-    margin-top: 11px;
-    background: white;
-    border: none;
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
   }
-  .App-img:hover,
-  .App-menu:hover {
+  ::-webkit-scrollbar-thumb {
+    background: rgb(219, 218, 218);
+  }
+  ::-webkit-scrollbar-thumb:hover {
     cursor: pointer;
+    background: rgb(219, 218, 218);
   }
-} 
-
-
-
-.side {
-  .nme{
+}
+.Sidebar {
+  z-index: 1;
+  border-top: solid white 5px;
+  .nme {
+    padding-left: 13px;
     display: inline;
     color: black;
-    //background-color: black;
   }
-  
-  transition: 0.3s;
-  top: 35px;
-  text-align: left;
-   height: 100%; /* Full-height: remove this if you want "auto" height */
-  //margin-left: 10px;
-  width: 20%; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  //top: 0; /* Stay at the top */
-  left: 0;
-  background-color: white; /* Black */
-  overflow-y: scroll;
-      overflow-x: hidden;
-  color: black;
-  padding-top: 20px;
-    .divs{
-     
-        border-bottom:0.5px lightgray solid ;
-        .icon{
-            margin-left: 5px;
-            margin-right: 5px;
-        }
+  position: fixed;
+  margin-top: 15px;
+  overflow: scroll;
+  //grid-area: Sidebar;
+  width: 18%;
+  height: 100%;
+  top: 42px;
+  .divs {
+    border-bottom: 0.5px lightgray solid;
+    .icon {
+      margin-left: 5px;
+      margin-right: 5px;
     }
-    .side:hover{
-      overflow-y: scroll;
-      overflow-x: hidden;
-    }
+  }
   button {
-    font-size: 10px;
+    font-size: 14px;
     font-family: Roboto, Arial, sans-serif;
     font-weight: 550;
-    //line-height: var(--yt-guide-highlight-line-height, 1.8rem);
     text-align: left;
-    padding-left: 5px;
     padding: 10px;
-    //padding: 6px 8px 6px 16px;
     text-decoration: none;
     color: black;
     background: white;
     width: 100%;
     border: none;
-    //display: block;
   }
   button:hover {
     cursor: pointer;
@@ -91,9 +54,6 @@ background: white;
   .selected {
     background: lightgray;
     color: red;
-  }
-  .ok{
-    color: black;
   }
   .selected:hover {
     background: lightgray;

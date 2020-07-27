@@ -2,136 +2,19 @@
   text-align: center;
 }
 
-.everything {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 20% 80%;
-      grid-template-columns: 20% 80%;
+.App {
+  display: block;
 }
 
-.everything .lefthalf {
+.App .header {
+  border-bottom: lightgray solid 1px;
+  border-top: 2px lightgray solid;
+  background: white;
+  top: 0;
   padding-top: 5px;
-  border-top: 0.3px lightgrey solid;
-  border-right: solid lightgrey 0.6px;
-  background: white;
-}
-
-.everything .lefthalf .sidebar {
-  /* width */
-  /* Track */
-  /* Handle */
-  /* Handle on hover */
-  overflow: hidden;
-  margin-top: 15px;
-}
-
-.everything .lefthalf .sidebar ::-webkit-scrollbar {
-  width: 5px;
-}
-
-.everything .lefthalf .sidebar ::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
-
-.everything .lefthalf .sidebar ::-webkit-scrollbar-thumb {
-  background: #dbdada;
-}
-
-.everything .lefthalf .sidebar ::-webkit-scrollbar-thumb:hover {
-  cursor: pointer;
-  background: #dbdada;
-}
-
-.everything .lefthalf .sidebar .sidebar:hover {
-  overflow-y: scroll;
-  overflow-x: hidden;
-}
-
-.everything .righthalf {
-  /* Handle */
-  width: 100%;
-  background-color: white;
-}
-
-.everything .righthalf ::-webkit-scrollbar {
-  width: 5px;
-}
-
-.everything .righthalf ::-webkit-scrollbar-track {
-  background: white;
-}
-
-.everything .righthalf ::-webkit-scrollbar-thumb {
-  background: white;
-}
-
-.everything .righthalf .App-header {
+  padding-bottom: 5px;
   position: fixed;
-  height: 20px;
   width: 100%;
-  min-height: 8vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: right;
-      -ms-flex-align: right;
-          align-items: right;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-align: left;
-  font-size: calc(10px + 2vmin);
-  color: black;
-  margin-top: auto;
-  border-top: lightgrey solid 0.7px;
-  border-bottom: #e2dfdf solid 0.6px;
-  background: white;
-}
-
-.everything .righthalf .App-header .i3 {
-  right: 0;
-  padding-right: 30px;
-  position: fixed;
-  float: right;
-}
-
-.everything .righthalf .main-body {
-  width: 100%;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  background-color: white;
-  color: black;
-}
-
-.everything .righthalf .main-body .main-item2 {
-  background: white;
-}
-
-@-webkit-keyframes App-logo-spin {
-  from {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
-}
-
-@keyframes App-logo-spin {
-  from {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
+  z-index: 1;
 }
 /*# sourceMappingURL=App.css.map */
