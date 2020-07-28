@@ -1,10 +1,11 @@
+
+import React, { Component } from "react";
+
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Searchbar from "./components/Searchbar";
 import Sidebar from "./components/Sidebar";
 import Menubtn from "./components/Menubtn";
-
-import React, { Component } from "react";
 import Body from "./components/Body";
 
 class App extends Component {
