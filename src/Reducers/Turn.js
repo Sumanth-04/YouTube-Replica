@@ -1,6 +1,6 @@
 
 
-const val = true;
+const val = false;
 const Turn = (state = val ,action) => {
     switch(action.type){
       case "ON" :

@@ -15,14 +15,12 @@ class Menubtn extends Component {
 
   onClick = (e) => {
     e.preventDefault();
-    console.log("clicked " + this.props.val);
     if (this.props.val) {
      
       this.props.TurnOff();
     } else {
       this.props.TurnOn();
     }
-    console.log("After " + this.props.val);
   };
 
   render() {
@@ -30,7 +28,7 @@ class Menubtn extends Component {
       <div>
         <div className="menubtn">
           <button className="App-menu" onClick={this.onClick}>
-            <i class="fa fa-fw fa-bars"></i>
+            <i className="fa fa-fw fa-bars"></i>
           </button>
 
           <img className="App-img" src={logos} alt="YouTube" />

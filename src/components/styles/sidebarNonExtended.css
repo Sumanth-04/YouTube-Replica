@@ -15,7 +15,7 @@
   background: #dbdada;
 }
 
-.Sidebar {
+.Sidebar2 {
   -webkit-transition: 0.2s;
   transition: 0.2s;
   z-index: 1;
@@ -23,27 +23,27 @@
   position: fixed;
   margin-top: 15px;
   overflow: scroll;
-  width: 18%;
+  width: 5.5%;
   height: 100%;
   top: 42px;
 }
 
-.Sidebar .nme {
+.Sidebar2 .nme {
   padding-left: 13px;
   display: inline;
   color: black;
 }
 
-.Sidebar .divs {
+.Sidebar2 .divs {
   border-bottom: 0.5px lightgray solid;
 }
 
-.Sidebar .divs .icon {
+.Sidebar2 .divs .icon {
   margin-left: 5px;
   margin-right: 5px;
 }
 
-.Sidebar button {
+.Sidebar2 button {
   font-size: 14px;
   font-family: Roboto, Arial, sans-serif;
   font-weight: 550;
@@ -56,62 +56,92 @@
   border: none;
 }
 
-.Sidebar button:hover {
+.Sidebar2 button:hover {
   cursor: pointer;
   background: #f1eeee;
 }
 
-.Sidebar .selected {
+.Sidebar2 .selected {
   background: lightgray;
   color: red;
 }
 
-.Sidebar .selected:hover {
+.Sidebar2 .selected:hover {
   background: lightgray;
 }
 
 @media (max-width: 900px) {
-  .Sidebar {
-    width: 20%;
+  .Sidebar2 {
+    width: 6.4%;
     z-index: 1;
   }
 }
 
 @media (max-width: 787px) {
-  .Sidebar .divs .icon {
+  .Sidebar2 .divs .icon {
     margin-left: 2px;
     margin-right: 2px;
   }
-  .Sidebar button {
+  .Sidebar2 button {
     font-size: 12px;
   }
 }
 
 @media (max-width: 710px) {
-  .Sidebar .divs .icon {
+  .Sidebar2 .divs .icon {
     margin-left: 0px;
     margin-right: 0px;
   }
-  .Sidebar button {
-    font-size: 10px;
+  .Sidebar2 button {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 645px) {
+  .Sidebar2 {
+    width: 7.5%;
   }
 }
 
 @media (max-width: 584px) {
-  .Sidebar button {
-    font-size: 9px;
+  .Sidebar2 button {
+    font-size: 11px;
   }
 }
 
 @media (max-width: 545px) {
-  .Sidebar {
-    width: 60%;
+  .Sidebar2 {
+    width: 8%;
+  }
+}
+
+@media (max-width: 480px) {
+  .Sidebar2 {
+    width: 11%;
+  }
+}
+
+@media (max-width: 360px) {
+  .Sidebar2 {
+    width: 13%;
+  }
+}
+
+@media (max-width: 310px) {
+  .Sidebar2 {
+    width: 15%;
   }
 }
 
 @media (max-width: 275px) {
-  .Sidebar {
-    width: 60%;
+  .Sidebar2 {
+    width: 17%;
   }
 }
-/*# sourceMappingURL=sidebar.css.map */
+
+@media (max-width: 230px) {
+  .Sidebar2 {
+    width: 20%;
+  }
+}
+/*# sourceMappingURL=sidebarNonExtended.css.map */

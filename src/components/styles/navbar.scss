@@ -13,7 +13,63 @@
     padding-right: 10px;
   }
   button:hover{
-    cursor: pointer;
-    
+    cursor: pointer;   
+  }
+}
+
+
+@media (max-width: 750px) {
+  .topnav {
+    padding-right : 6% ;
+    padding-top : 2% ;
+    button{
+      font-size: 16px;
+      padding-right: 0px;
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  .topnav {
+    padding-right : 6% ;
+    padding-top : 2% ;
+    button{
+      font-size: 12px;
+      padding-right: 0px;
+    }
+  }
+}
+@media (max-width: 580px) {
+  .topnav {
+    padding-right : 9% ;
+    padding-top : 3% ;
+    button{
+      font-size: 16px;
+      padding-right: 0px;
+    }
+  }
+}
+@media (max-width: 300px) {
+  .topnav {
+    padding-top : 4% ;
+    button{
+      font-size: 14px;
+      padding-right: 0px;
+    }
+  }
+}
+
+
+@media (max-width: 275px) {
+  .topnav {
+    button{
+      font-size: 12px;
+      padding-right: 0px;
+    }
+  }
+}
+@media (max-width: 245px) {
+  .topnav {
+   display: none;
   }
 }

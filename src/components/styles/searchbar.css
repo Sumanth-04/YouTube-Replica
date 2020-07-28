@@ -47,4 +47,28 @@
 .Searchbar .sbtn:hover .sea {
   color: black;
 }
+
+@media (max-width: 580px) {
+  .Searchbar {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .Searchbar {
+    margin-left: 0%;
+  }
+  .Searchbar .txtfld {
+    width: 50%;
+  }
+}
+
+@media (max-width: 1030px) {
+  .Searchbar {
+    margin-left: 6%;
+  }
+  .Searchbar .txtfld {
+    width: 70%;
+  }
+}
 /*# sourceMappingURL=searchbar.css.map */

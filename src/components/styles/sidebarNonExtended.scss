@@ -13,7 +13,7 @@
     background: rgb(219, 218, 218);
   }
 }
-.Sidebar {
+.Sidebar2 {
   transition: 0.2s;
   z-index: 1;
   border-top: solid white 5px;
@@ -26,7 +26,7 @@
   position: fixed;
   margin-top: 15px;
   overflow: scroll;
-  width: 18%;
+  width: 5.5%;
   height: 100%;
   top: 42px;
   .divs {
@@ -62,14 +62,14 @@
 }
 
 @media (max-width: 900px) {
-  .Sidebar {
-    width: 20%;
+  .Sidebar2 {
+    width: 6.4%;
     z-index: 1;
   }
 }
 
 @media (max-width: 787px) {
-  .Sidebar {
+  .Sidebar2 {
     .divs {
       .icon {
         margin-left: 2px;
@@ -83,7 +83,7 @@
 }
 
 @media (max-width: 710px) {
-  .Sidebar {
+  .Sidebar2 {
     .divs {
       .icon {
         margin-left: 0px;
@@ -91,26 +91,51 @@
       }
     }
     button {
-      font-size: 10px;
+      font-size: 12px;
     }
+  }
+}
+@media (max-width: 645px) {
+  .Sidebar2 {
+    width: 7.5%;
   }
 }
 
 @media (max-width: 584px) {
-  .Sidebar {
+  .Sidebar2 {
     button {
-      font-size: 9px;
+      font-size: 11px;
     }
   }
 }
 
 @media (max-width: 545px) {
-  .Sidebar {
-    width: 60%;
+  .Sidebar2 {
+    width: 8%;
+  }
+}
+@media (max-width: 480px) {
+  .Sidebar2 {
+    width: 11%;
+  }
+}
+@media (max-width: 360px) {
+  .Sidebar2 {
+    width: 13%;
+  }
+}
+@media (max-width: 310px) {
+  .Sidebar2 {
+    width: 15%;
   }
 }
 @media (max-width: 275px) {
-  .Sidebar {
-    width: 60%;
+  .Sidebar2 {
+    width: 17%;
+  }
+}
+@media (max-width: 230px) {
+  .Sidebar2 {
+    width: 20%;
   }
 }
